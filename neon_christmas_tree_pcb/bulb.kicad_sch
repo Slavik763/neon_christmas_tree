@@ -1,0 +1,903 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c10c95e9-a845-44dd-94a5-08826f34c9da)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:Lamp_Neon" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "NE" (at 0.635 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Lamp_Neon" (at 0.635 -3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 2.54 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 2.54 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "neon lamp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Neon lamp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Lamp_Neon_0_1"
+        (rectangle (start -1.524 -0.508) (end 1.524 -0.762)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start -1.524 0.762) (end 1.524 0.508)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy 0 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 2.54)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 1.016 -1.27) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "Lamp_Neon_1_1"
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Diode:MM5Zxx" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MM5Zxx" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Diode_SMD:D_SOD-523" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "zener diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "300mW Zener Diode, SOD-523" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "D?SOD?523*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MM5Zxx_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+            (xy -0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MM5Zxx_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Transistor_FET:2N7002" (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "2N7002" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 5.08 -1.905 0)
+        (effects (font (size 1.27 1.27) italic) (justify left) hide)
+      )
+      (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_keywords" "N-Channel Switching MOSFET" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "2N7002_0_1"
+        (polyline
+          (pts
+            (xy 0.254 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.27)
+            (xy 0.762 -2.286)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 0.508)
+            (xy 0.762 -0.508)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 2.286)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0)
+            (xy 2.032 0.381)
+            (xy 2.032 -0.381)
+            (xy 1.016 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 2.794 0.508)
+            (xy 2.921 0.381)
+            (xy 3.683 0.381)
+            (xy 3.81 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.302 0.381)
+            (xy 2.921 -0.254)
+            (xy 3.683 -0.254)
+            (xy 3.302 0.381)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 1.651 0) (radius 2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.54 -1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 2.54 1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "2N7002_1_1"
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 237.49 140.97) (diameter 0) (color 0 0 0 0)
+    (uuid 9aa8c3ec-dbc5-4bf3-a4d9-28607abba99a)
+  )
+
+  (wire (pts (xy 220.98 140.97) (xy 237.49 140.97))
+    (stroke (width 0) (type default))
+    (uuid 46aa41f0-4814-4372-8d6c-2190431d7a4e)
+  )
+  (wire (pts (xy 237.49 139.7) (xy 237.49 140.97))
+    (stroke (width 0) (type default))
+    (uuid 938f3007-07fb-4b81-94c4-41ff1438cbc1)
+  )
+  (wire (pts (xy 220.98 140.97) (xy 220.98 142.24))
+    (stroke (width 0) (type default))
+    (uuid 9534049d-53bb-47d1-9aac-2a5df4d57c3c)
+  )
+  (wire (pts (xy 210.82 147.32) (xy 213.36 147.32))
+    (stroke (width 0) (type default))
+    (uuid b8e124cf-93c8-40b1-b503-99df95a06531)
+  )
+  (wire (pts (xy 237.49 140.97) (xy 237.49 144.78))
+    (stroke (width 0) (type default))
+    (uuid ec9c7fb2-a2b9-4bc6-9f65-a6de8a3b0494)
+  )
+
+  (hierarchical_label "EN" (shape input) (at 210.82 147.32 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1b816976-522f-46df-85a4-3b8463832658)
+  )
+  (hierarchical_label "PWR_HV" (shape input) (at 237.49 114.3 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d858e3a3-20d0-4f1f-b609-19760e1e662d)
+  )
+
+  (symbol (lib_id "Device:R") (at 237.49 135.89 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0db77fc1-167b-4e14-8ad4-0ba7650e3e3d)
+    (property "Reference" "R7" (at 240.03 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 240.03 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 235.712 135.89 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 237.49 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ecec7f15-2809-41b3-8d01-0ac53acf2844))
+    (pin "2" (uuid 496df502-f76c-415a-aaf0-a1d8b24a63ae))
+    (instances
+      (project "neon_christmas_tree_pcb"
+        (path "/848c6d33-d111-451b-98f5-a977f341243f"
+          (reference "R7") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c"
+          (reference "R11") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "R28") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "R30") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "R11") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "R38") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "R36") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "R7") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "R32") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "R10") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "R34") (unit 1)
+        )
+      )
+      (project "neon_bulb_clock_pixel_pcb"
+        (path "/88e08b3d-83bf-49bd-af10-26913e604136"
+          (reference "R2") (unit 1)
+        )
+      )
+      (project "neon_bulb_matrix2"
+        (path "/cf8cb1f8-b8ea-44c9-82c7-d917c0cd6092"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:MM5Zxx") (at 237.49 148.59 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 104a2935-11c5-4d1d-9d83-f1d45bbb1d63)
+    (property "Reference" "D6" (at 240.03 147.32 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MM5Zxx" (at 240.03 149.86 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 233.045 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" (at 237.49 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid abbc8792-dc61-4a83-8192-26e40a817b34))
+    (pin "2" (uuid b8a4db1a-1880-4c36-8a84-4314f3fa69b5))
+    (instances
+      (project "neon_christmas_tree_pcb"
+        (path "/848c6d33-d111-451b-98f5-a977f341243f"
+          (reference "D6") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c"
+          (reference "D7") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "D7") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "D24") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "D26") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "D32") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "D6") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "D28") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "D9") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "D30") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "D34") (unit 1)
+        )
+      )
+      (project "neon_bulb_matrix2"
+        (path "/cf8cb1f8-b8ea-44c9-82c7-d917c0cd6092"
+          (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Lamp_Neon") (at 237.49 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 561d02ca-56ff-4aef-8979-f477612128f4)
+    (property "Reference" "NE1" (at 241.3 119.38 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Lamp_Neon" (at 241.3 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" (at 237.49 116.84 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 237.49 116.84 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8d8cf1df-fe86-4555-b26d-9c9269421fae))
+    (pin "2" (uuid a4e4c454-3363-4a01-a383-c34f3f74bae6))
+    (instances
+      (project "neon_christmas_tree_pcb"
+        (path "/848c6d33-d111-451b-98f5-a977f341243f"
+          (reference "NE1") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c"
+          (reference "NE10") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "NE7") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "NE8") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "NE9") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "NE4") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "NE5") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "NE6") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "NE1") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "NE2") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "NE3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 237.49 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5fc33ac8-2873-4c8b-8430-124dcb3046bb)
+    (property "Reference" "C13" (at 241.3 127 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (at 241.3 129.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 238.4552 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 237.49 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d35729f1-54c0-4c92-915c-0574b6a065b5))
+    (pin "2" (uuid 097a2758-591f-45be-b290-9d9f5f1ba999))
+    (instances
+      (project "neon_christmas_tree_pcb"
+        (path "/848c6d33-d111-451b-98f5-a977f341243f"
+          (reference "C13") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c"
+          (reference "C14") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "C25") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "C26") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "C14") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "C29") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "C28") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "C13") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "C23") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "C22") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "C27") (unit 1)
+        )
+      )
+      (project "neon_bulb_clock_pixel_pcb"
+        (path "/88e08b3d-83bf-49bd-af10-26913e604136"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "neon_bulb_matrix2"
+        (path "/cf8cb1f8-b8ea-44c9-82c7-d917c0cd6092"
+          (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 237.49 152.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 85ae2775-e9c9-4346-8d5a-fee36a78429c)
+    (property "Reference" "#PWR029" (at 237.49 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 237.49 157.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 237.49 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 237.49 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b68d2589-e9ee-4895-8523-6a94b98ae729))
+    (instances
+      (project "neon_christmas_tree_pcb"
+        (path "/848c6d33-d111-451b-98f5-a977f341243f"
+          (reference "#PWR029") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "#PWR070") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "#PWR073") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "#PWR034") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "#PWR094") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "#PWR091") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "#PWR075") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "#PWR081") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "#PWR078") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "#PWR088") (unit 1)
+        )
+      )
+      (project "neon_bulb_clock_pixel_pcb"
+        (path "/88e08b3d-83bf-49bd-af10-26913e604136"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "neon_bulb_matrix2"
+        (path "/cf8cb1f8-b8ea-44c9-82c7-d917c0cd6092"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:2N7002") (at 218.44 147.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b2fb556a-a50e-40d6-9a2c-d9bddf9fc7ab)
+    (property "Reference" "Q2" (at 224.79 146.0499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2N7002" (at 224.79 148.5899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70" (at 223.52 149.225 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 218.44 147.32 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 4e2844c5-a619-4186-aa1f-10b287bc12d8))
+    (pin "2" (uuid 0bca37b7-8ea4-4e2e-9a4a-cfd790e4aecf))
+    (pin "3" (uuid 8d40949e-33b1-43cf-a0b2-652e19d11a9d))
+    (instances
+      (project "yet_another_watch_project"
+        (path "/130fb42c-f398-4b0c-a273-bbf15aae1407"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "yet_another_watch_project_2_pcb"
+        (path "/3d9b6dde-7a94-431a-ad67-df0f106c7f22"
+          (reference "Q4") (unit 1)
+        )
+      )
+      (project "neon_christmas_tree_pcb"
+        (path "/848c6d33-d111-451b-98f5-a977f341243f"
+          (reference "Q4") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c"
+          (reference "Q4") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "Q14") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "Q4") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "Q13") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "Q17") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "Q18") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "Q5") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "Q15") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "Q6") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "Q16") (unit 1)
+        )
+      )
+      (project "neon_bulb_matrix2"
+        (path "/cf8cb1f8-b8ea-44c9-82c7-d917c0cd6092"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "ch32v003_oled_watch_pcb"
+        (path "/fd4bf270-3e86-498c-a180-3783771b07c9/e4b92a21-b2e4-4f17-ab10-51c6497ab81f"
+          (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 220.98 152.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cb1c1e8a-a052-46f4-ae67-06a717b3a125)
+    (property "Reference" "#PWR027" (at 220.98 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 220.98 157.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 220.98 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 220.98 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 377fa419-6867-4ac0-b964-16fb4b78d55d))
+    (instances
+      (project "neon_christmas_tree_pcb"
+        (path "/848c6d33-d111-451b-98f5-a977f341243f"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "#PWR069") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "#PWR072") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/71a8ec13-9582-4a49-9ec0-95532d68631c/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "#PWR093") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "#PWR090") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "#PWR074") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/d6b25c8a-8dc8-46c6-be86-a9e0bd4e1cd9"
+          (reference "#PWR080") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/dd4eb58c-adf0-46cc-8ca0-a002b556d185/888a9299-6d90-425a-b5b8-371b243183aa"
+          (reference "#PWR077") (unit 1)
+        )
+        (path "/848c6d33-d111-451b-98f5-a977f341243f/e78e1335-972c-44ed-9f85-4e6106ae18d7/2f7fedb8-40a5-434a-8c56-e66b86a2cea8"
+          (reference "#PWR087") (unit 1)
+        )
+      )
+      (project "neon_bulb_clock_pixel_pcb"
+        (path "/88e08b3d-83bf-49bd-af10-26913e604136"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "neon_bulb_matrix2"
+        (path "/cf8cb1f8-b8ea-44c9-82c7-d917c0cd6092"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+)
